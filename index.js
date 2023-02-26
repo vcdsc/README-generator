@@ -10,7 +10,16 @@ const questions = [];
 function writeToFile(fileName, data) {}
 
 // function to initialize program
-function init() {}
+function init() {
+  inquirer
+    .prompt([
+      { type: "input", name: "title", message: "TITLE" },
+      { type: "input", name: "description", message: "DESCRIPTION" },
+    ])
+    .then((data) => {
+      console.log(generateMarkdown(data));
+    });
+}
 
 // function call to initialize program
 init();
