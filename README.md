@@ -31,9 +31,11 @@ Project is open to contributions, just ensure any pull requests are clear and th
 
 No tests are currently available but this is on the list of possible future features.
 
+## [Video Walkthrough](https://watch.screencastify.com/v/Yl8JgHxpB2B9p8Zp8yvn)
+
 ## License
 
-This project is licensed under the [${data.license} License](https://choosealicense.com/licenses/).
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/).
 
 ## Questions
 
